@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="number_hint">Número de tarjeta</string>
+    <string name="scan_txt">Scanear</string>
+    <string name="lbl_instrucc">Instrucciones</string>
+
+    <!-- Errors and messages -->
+    <string name="qrdroid_missing">Necesitas QR Droid. es gratis, Quiere descargarlo?</string>
+    <string name="from_market">Play Store</string>
+    <string name="direct">Internet</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- URLs -->
+    <string name="url_market">http://market.android.com/details?id=la.droid.qr</string>
+    <string name="url_direct">http://droid.la/apk/qr/</string>
+    <string name="no_cards">No tiene tarjetas guardadas.</string>
+    <string name="no_tarjeta"># de Tarjeta</string>
+    <string name="lbl_nombre">Usuario:</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_cerrar">Cerrar</string>
+    <string name="paso1">Paso 1</string>
+    <string name="paso2">Paso 2</string>
+    <string name="paso3">Paso 3</string>
+    <string name="numero_paso_1">Localice el número de su tarjeta.</string>
+    <string name="numero_paso_2">Introduzca el número de su tarjeta en el cuadro de busqueda.</string>
+    <string name="numero_paso_3">precione el botón verde para consultar su saldo.</string>
+    
+    <string name="qr_paso_1">Localice el código (Data Matrix) de su tarjeta.</string>
+    <string name="qr_paso_2">Precione el botón Escanear, para desplegar el motor de Escaner QR Droid.</string>
+    <string name="qr_paso_3">Escanee el código, espere a que el sistema valide su tarjeta y muestre su saldo.</string>
+    
+    
+    <string name="tarjeta_lbl">Nº Tarjeta:</string>
+    <string name="saldo_lbl">Saldo:</string>
+    <string name="fecha_lbl">Ultimo Uso:</string>
+
+</resources>

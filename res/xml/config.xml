@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Tarjetas" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Agregar tarjetas"
+            android:summary="podra agregar las tarjetas escaneadas."
+            android:key="tarjetas_add"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="tarjeta_autosave"
+            android:summary="Puede guardar una tarjeta despues de consultar el saldo?"
+            android:title="Guardardo Automatico" />
+
+        <EditTextPreference
+            android:defaultValue="Nueva Tarjeta"
+            android:dialogTitle="Nombre de la Tarjeta"
+            android:key="tarjeta_default"
+            android:summary="Este nombre sera usado para almacenar las tarjetas Atomaticamente."
+            android:title="Nombre de la Tarjeta" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Saldo" >        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Mostrar Dialogo"
+            android:summary="Muestra su saldo en un dialogo?"
+            android:key="saldo_vista"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

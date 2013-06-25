@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="form">
+        <item name="android:background"> @drawable/form</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="form_gris">
+        <item name="android:background"> @drawable/form_gris</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+</resources>
